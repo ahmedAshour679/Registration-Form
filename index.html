@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body style="background-color:#c93c34;">
+    <form>
+        <fieldset style="background-color:#f8bc5a;">
+            <legend style="background-color:#34aec9;">Personal Data : </legend>
+            <fieldset style="background-color:#fff200;">
+                <legend style="background-color:#34aec9;">Your Name : </legend>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <td><label for="fname">First Name </label>
+                        <td>:</td>
+                        </td>
+                        <td><input type="text" name="fname" id="fname" placeholder="Enter your first name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name </label>
+                        <td>:</td>
+                        </td>
+                        <td><input type="text" name="lname" id="lname" placeholder="Enter your last name"></td>
+                    </tr>
+                </table>
+            </fieldset><br><br>
+            <table>
+                <tr>
+                    <td><label for="phone">Your Phone </label>
+                    <td>:</td>
+                    </td>
+                    <td><input type="number" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email </label>
+                    <td>:</td>
+                    </td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password </label>
+                    <td>:</td>
+                    </td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="re-password">re-password </label>
+                    <td>:</td>
+                    </td>
+                    <td><input type="password" name="re-password" id="re-password"></td>
+                </tr>
+            </table>
+            <br><br>
+            <p>Choose Your Gender :</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <br>
+            <p>Choose Your Degree :</p>
+            <input type="radio" name="degree" id="student" value="student">
+            <label for="student">Student</label>
+            <br>
+            <input type="radio" name="degree" id="graduated" value="graduated">
+            <label for="graduated">Graduated</label>
+            <br><br>
+            <label for="university">Choose your university:</label>
+            <select name="university" id="university">
+                <option value="" name="university">none</option>
+                <optgroup label="Option 1.1">
+                    <option value="AUC" name="university">AUC</option>
+                    <option value="BUE" name="university">BUE</option>
+                </optgroup>
+                <optgroup label="Option 2.1">
+                    <option value="GUC" name="university">GUC</option>
+                </optgroup>
+                <optgroup label="Option 3.1">
+                    <option value="FUE" name="university">FUE</option>
+                </optgroup>
+                <optgroup label="Option 4.1">
+                    <option value="MIU" name="university">MIU</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <button type="submit" style="background-color:#139f15; color: white;">SUBMIT</button>
+            <button type="reset" style="background-color:#cd3028; color: white;">RESET</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
